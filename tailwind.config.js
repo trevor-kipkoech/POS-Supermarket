@@ -4,6 +4,7 @@ module.exports = {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: 'class', // 🌟 ADDED: Enabled class-driven dark mode switching
   theme: {
     extend: {
       fontFamily: {

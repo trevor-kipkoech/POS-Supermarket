@@ -1,41 +1,20 @@
-Overview
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-The Supermarket Management System is a software application designed to streamline and automate supermarket operations. The system helps manage products, inventory, sales, customers, suppliers, and employee activities efficiently.
+# Run and deploy your AI Studio app
 
-Features
-Product Management
-Add, update, view, and delete products
-Categorize products
-Track product prices and stock levels
-Inventory Management
-Monitor stock availability
-Automatic stock updates after sales
-Low-stock alerts
-Sales Management
-Process customer purchases
-Generate receipts
-Track daily, weekly, and monthly sales
-Customer Management
-Store customer information
-Manage loyalty programs
-View purchase history
-Supplier Management
-Add and manage suppliers
-Track product deliveries
-Manage supplier contacts
-Employee Management
-Register employees
-Assign roles and permissions
-Track employee activities
-Reporting
-Sales reports
-Inventory reports
-Product performance analysis
-Customer activity reports
-Technologies Used
-Frontend: HTML, CSS, JavaScript
-Backend: PHP / Laravel
-Database: MySQL
-Version Control: Git & GitHub
-Installation
+This contains everything you need to run your app locally.
 
+View your app in AI Studio: https://ai.studio/apps/bccf99f4-d5fc-4f2d-9f9a-60d58c371df4
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
