@@ -38,27 +38,4 @@ Backend: PHP / Laravel
 Database: MySQL
 Version Control: Git & GitHub
 Installation
-Prerequisites
-PHP 8.x
-Composer
-MySQL
-Web Server (Apache/Nginx)
-Git
-Steps
-Clone the repository:
-git clone https://github.com/your-username/supermarket-management-system.git
-Navigate to the project directory:
-cd supermarket-management-system
-Install dependencies:
-composer install
-Create the environment file:
-cp .env.example .env
-Generate the application key:
-php artisan key:generate
-Configure database credentials in .env.
-Run migrations:
-php artisan migrate
-Start the development server:
-php artisan serve
-Open the application:
-http://127.0.0.1:8000
+
